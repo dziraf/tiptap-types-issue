@@ -3,6 +3,7 @@ import { styled } from 'styled-components'
 export const EditorWrapper = styled.span`
   position: relative;
   padding: 16px;
+  border: 1px solid #ddd;
 
   .ProseMirror-focused {
     outline: none;
